@@ -1,7 +1,7 @@
 title: "RT-Thread"
 author: "Bernard Xiong"
 description: "Open-Source, Embedded OS, Real-Time OS, IoT"
-more: "rt-thread"
+more: "Read more..."
 url: "http://rt-thread.github.io"
 
 permalink: /:title/
