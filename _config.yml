@@ -1,0 +1,36 @@
+title: "Niklas Buschmann"
+author: "Niklas Buschmann"
+description: "Open-Source, Internet, Krytopgraphie und anderes."
+#subheading: "Open-Source, Internet, Krytopgraphie und anderes."
+more: "zum Artikel"
+url: "http://niklabs.me"
+
+permalink: /:title/
+
+paginate: 5
+
+style:
+#    body: "whitesmoke"
+    padding: 33%
+    anchor: "#46f"
+    serif-heading: true
+    nav: "#181818"
+#    headline: "#06f"
+    description: "white"
+    article:
+        odd: "#ffffff"
+        even: "#222222"
+
+links:
+  - github: "https://github.com/me/"
+  - twitter: "https://twitter.com/me/"
+  - google-plus: "https://plus.google.com/+me"
+  - reddit: "https://www.reddit.com/user/me/"
+  - youtube: "https://www.youtube.com/user/me"
+  - steam: "http://steamcommunity.com/id/me/"
+
+markdown: redcarpet
+redcarpet:
+    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "footnotes"]
+excerpt_separator: "\n\n\n\n"
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- Theme by Niklas Buschmann <http://github.com/niklasbuschmann> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="{{ site.encoding }}">
+    {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if page.title %} {{ page.title }} › {% endif %}{{ site.title }}</title>
+    <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url}}">
+    <link href="{{ "/main.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    <style>#isso-thread h4 {padding: 2em 0} #isso-thread svg {max-width: 48px; box-shadow: none} #isso-thread .post-action input {font: inherit; padding: .2em .5em; background-color: white} #isso-thread .post-action input:hover {background-color: #ccc} #isso-thread textarea, #isso-thread input {border: 1px solid silver; box-shadow: none; padding: .3em .5em}</style>
+  </head>
+  <body>
+    <header>
+      {% unless site.style.headline %}<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>{% endunless %}
+      <nav>
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>{% for node in site.pages %}{% if node.title %}<li><a href="{{ node.url | prepend: site.baseurl }}"{% if page.url == node.url %} id="selected"{% endif %}>{{ node.title }}</a></li>{% endif %}{% endfor %}
+        </ul>
+      </nav>
+    </header>
+    {% if site.style.headline %}<div><h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1></div>{% endif %}
+    {% if site.subheading %}<div>{{ site.subheading }}</div>{% endif %}
+{{ content }}
+    <footer>
+      <span><a href="https://github.com/niklasbuschmann/contrast">Contrast Theme</a></span><span><a href="http://osbn.de/">OSBN</a></span><span><a href="https://keybase.io/niklasbuschmann">{% if page.author %}{{ page.author }}{% else %}{{site.title}}{% endif %}</a></span>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+---
+layout: none
+permalink: /keybase.txt
+---
+==================================================================
+https://keybase.io/niklasbuschmann
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://niklasbuschmann.github.io
+  * I am niklasbuschmann (https://keybase.io/niklasbuschmann) on keybase.
+  * I have a public key with fingerprint 95A5 6B90 1198 67E8 7E0B  D6EC E4D5 B887 927D ADD4
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "95a56b90119867e87e0bd6ece4d5b887927dadd4",
+            "host": "keybase.io",
+            "key_id": "e4d5b887927dadd4",
+            "kid": "0101301cf80f580173606f60c1c9960485bae08efa25df4e32faa2a891575877691b0a",
+            "uid": "44f3949aa27917e0ad83eb77f3b0c000",
+            "username": "niklasbuschmann"
+        },
+        "service": {
+            "hostname": "niklasbuschmann.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423496713,
+    "expire_in": 157680000,
+    "prev": "d285daf79d9bd1805bc86c307c4eab75548b63842e34d59ea0c6ec1beca4f933",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIjAnicbZJrSFRBFMfXylIhDFLMjMqbhNBWc/c+Zu4mQiQEJUSkFqVuM/fOdSd3
+7257d31kD/1QWGAPMAkJLQmjUHpKghZZVkQIKiGCmpAlIgT5KUmK5lp989Nwzvmd
+/3nM6V+93JUU19AEr1ZllCbHfegrjLkKRkcSawQSMqoFb41QThcfk1llNBKOMCsq
+eAVNwYpKNCCKGlIhRZACYqhUp7KhEISg5oEGNgxZcAv+kO1kcBmCbbqDhbiPGz5m
+cO8SfPliAIhAlIComwiYCgIilFSgmirQRV3TVCAjhWAKEDWxRzFMmUoeE2MPRpqo
+QAVBqGoiAZjLxRblZNmUNFnjCNRE3iw2kEQJhKZEgA4AcECbRiwcpJy2WHkA2yRm
+6/4gtizhjFvgwQqmU2cTzkBLgzvKWNQfI39nDEdC0ZAeCnDMH42Gba8jE60OO3mV
+lPj+KfoIswy+W55RQSM2C1mCV+SkHmVOCVH2SLKmQlFyC7QqzCLUxxxCgSrifQOn
+Dq3gkoYHKQY2oWZoxBARUIiOVF0CUJcpJlBRZERUCckeKvGdaxQDnf+XSKiOZVOT
+JMGZ8aQVEryQt4nLuKTNyiwcjUWocObVy+IVrrgk18r4Zc51uJIS1/y/mY8PElyN
+M+OHi0u+bX+TA2LJ67ze1tx8oe/6nDr9LoF1tA2/zR9vzxu9U7+B9cx03TqYEwOd
+aZkLRQWf3q/al5YysfNF7dP0BpUtTOwsYfPza9sG+qo66z5szVp+trH5xPqnqa3X
++m/Plox8BWPZwVO/9pKB5pvy0I8bb7bJrRcGHh5rb8tqOJ9dszBXvc7s/Z0/PNap
+1Oa53rfkPpG6po8MFecObn78qOU4vph6ttb9Pa3r9JddUwMbZdZDZ1/PFrqvPU/2
+DQb8GS2T9w8ES9I+7+62ey+33mt6VUjvFhz6mbI/timz/ujk6KUnU5XPzhVt6UZ1
+gSuf0hNy44f3XO7obCp9q/8Bf18ydw==
+=hs65
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/niklasbuschmann
+
+==================================================================
