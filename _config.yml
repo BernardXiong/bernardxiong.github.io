@@ -24,9 +24,6 @@ links:
   - github: "https://github.com/me/"
   - twitter: "https://twitter.com/me/"
   - google-plus: "https://plus.google.com/+me"
-  - reddit: "https://www.reddit.com/user/me/"
-  - youtube: "https://www.youtube.com/user/me"
-  - steam: "http://steamcommunity.com/id/me/"
 
 markdown: redcarpet
 redcarpet:
